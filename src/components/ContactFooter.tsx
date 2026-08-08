@@ -25,7 +25,7 @@ export const ContactFooter: React.FC = () => {
 
       <div className="absolute bottom-12 flex gap-8 font-sans text-xs tracking-widest uppercase text-gray-400">
         <a href="https://github.com/ShreyashSrivastavaa" target="_blank" rel="noopener noreferrer" className="hover:text-black transition-colors">GitHub</a>
-        <a href="https://linkedin.com/in/shreyashsrivastava" target="_blank" rel="noopener noreferrer" className="hover:text-black transition-colors">LinkedIn</a>
+        <a href="https://www.linkedin.com/in/shreyashsrivastavaa/" target="_blank" rel="noopener noreferrer" className="hover:text-black transition-colors">LinkedIn</a>
         <a href="https://www.ihatelovepdf.com/" target="_blank" rel="noopener noreferrer" className="hover:text-black transition-colors">IHateLovePDF</a>
       </div>
     </section>
