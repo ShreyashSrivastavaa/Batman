@@ -73,7 +73,7 @@ export const AboutSection: React.FC = () => {
               className="w-full aspect-[4/5] bg-gray-100 overflow-hidden rounded-sm mt-auto"
             >
               <img 
-                src="/person-suit.jpg" 
+                src="/person-suit.png" 
                 alt="Shreyash Srivastava Portrait" 
                 className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700"
               />

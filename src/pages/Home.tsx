@@ -11,7 +11,7 @@ import { ContactFooter } from '../components/ContactFooter';
 import { smoothScrollTo } from '../utils/scroll';
 
 export const Home: React.FC = () => {
-  const BRUCE_IMG = "/person-suit.jpg";
+  const BRUCE_IMG = "/person-suit.png";
   // Updated Overlay Image
   const BATMAN_IMG = "https://69sfgmk1pv2omedb.public.blob.vercel-storage.com/new-templates/bruce/freepik__background__14191-1.webp";
 
