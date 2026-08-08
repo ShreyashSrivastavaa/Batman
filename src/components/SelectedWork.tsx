@@ -14,31 +14,24 @@ interface Project {
 const projects: Project[] = [
   {
     id: '01',
-    client: 'Wayne Ent.',
-    description: 'Rebranding the future of Gotham’s technology sector with a focus on clean energy and defense systems.',
-    year: '2024',
+    client: 'IHateLovePDF',
+    description: 'All-in-one browser-based PDF suite to split, merge, compress, convert, and protect PDFs with sub-second speeds and zero privacy risks.',
+    year: '2025',
     image: 'https://69sfgmk1pv2omedb.public.blob.vercel-storage.com/new-templates/bruce/ChatGPT-Image-Jan-9-2026-03_02_21-PM.webp'
   },
   {
     id: '02',
-    client: 'Gotham City',
-    description: 'A comprehensive digital overhaul for the city’s transit and public information systems.',
-    year: '2023',
+    client: 'QuickBite API',
+    description: 'High-performance food ordering backend built with Node.js, Express, MongoDB, Socket.io real-time order updates, JWT auth, and Zod validation.',
+    year: '2024',
     image: 'https://69sfgmk1pv2omedb.public.blob.vercel-storage.com/new-templates/bruce/ChatGPT-Image-Jan-9-2026-03_45_01-PM.webp'
   },
   {
     id: '03',
-    client: 'The Daily Planet',
-    description: 'Editorial design and layout restructuring for Metropolis’s leading news publication.',
-    year: '2023',
+    client: 'SwipeRide API',
+    description: 'Real-time ride-sharing backend with geospatial queries, Redis driver location caching, Socket.io live tracking, Google Maps API, and Paystack.',
+    year: '2024',
     image: 'https://69sfgmk1pv2omedb.public.blob.vercel-storage.com/new-templates/bruce/ChatGPT-Image-Jan-9-2026-03_48_28-PM.webp'
-  },
-  {
-    id: '04',
-    client: 'Arkham Rehab',
-    description: 'Identity design for a new initiative focused on mental health and rehabilitation.',
-    year: '2022',
-    image: 'https://69sfgmk1pv2omedb.public.blob.vercel-storage.com/new-templates/bruce/ChatGPT-Image-Jan-9-2026-03_51_01-PM.webp'
   }
 ];
 

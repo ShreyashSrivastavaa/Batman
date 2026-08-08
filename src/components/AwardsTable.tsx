@@ -8,12 +8,10 @@ interface Award {
 }
 
 const awards: Award[] = [
-  { project: "Wayne Foundation", platform: "Awwwards", award: "SOTD" },
-  { project: "Gotham Transit", platform: "Behance", award: "Featured" },
-  { project: "Arkham Asylum", platform: "Dribbble", award: "Weekly Pick" },
-  { project: "Bat-Tech Interface", platform: "FWA", award: "Innovation Award" },
-  { project: "Justice League", platform: "Awwwards", award: "HM" },
-  { project: "The Cave", platform: "ArchDaily", award: "Best Interior" },
+  { project: "IHateLovePDF Suite", platform: "Web Product", award: "Live SaaS" },
+  { project: "QuickBite Ordering API", platform: "Node / Express / MongoDB", award: "REST & Sockets" },
+  { project: "SwipeRide Driver Tracking", platform: "Redis / Geospatial", award: "Sub-second API" },
+  { project: "Personal Portfolio", platform: "Next.js & Vercel", award: "Featured Live" }
 ];
 
 export const AwardsTable: React.FC = () => {

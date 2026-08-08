@@ -13,20 +13,20 @@ export const ContactFooter: React.FC = () => {
         </h2>
         
         <a 
-          href="mailto:bruce@wayneent.com" 
+          href="mailto:shreyashsr2004@gmail.com" 
           className="group relative inline-block"
         >
           <span className="font-sans text-xl md:text-3xl font-medium tracking-widest uppercase transition-colors duration-300 group-hover:text-gray-500">
-            bruce@wayneent.com
+            shreyashsr2004@gmail.com
           </span>
           <span className="absolute left-0 bottom-0 w-full h-[2px] bg-black transform scale-x-0 transition-transform duration-500 ease-out group-hover:scale-x-100 origin-left" />
         </a>
       </div>
 
       <div className="absolute bottom-12 flex gap-8 font-sans text-xs tracking-widest uppercase text-gray-400">
-        <a href="#" className="hover:text-black transition-colors">Instagram</a>
-        <a href="#" className="hover:text-black transition-colors">LinkedIn</a>
-        <a href="#" className="hover:text-black transition-colors">Twitter</a>
+        <a href="https://github.com/ShreyashSrivastavaa" target="_blank" rel="noopener noreferrer" className="hover:text-black transition-colors">GitHub</a>
+        <a href="https://linkedin.com/in/shreyashsrivastava" target="_blank" rel="noopener noreferrer" className="hover:text-black transition-colors">LinkedIn</a>
+        <a href="https://www.ihatelovepdf.com/" target="_blank" rel="noopener noreferrer" className="hover:text-black transition-colors">IHateLovePDF</a>
       </div>
     </section>
   );

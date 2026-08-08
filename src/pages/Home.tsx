@@ -45,11 +45,11 @@ export const Home: React.FC = () => {
         <div className="absolute top-32 md:top-24 w-full md:w-auto md:left-20 z-30 pointer-events-none">
           <div className="flex flex-col items-center md:items-start text-center md:text-left px-4">
             <h1 className="font-serif text-5xl md:text-7xl lg:text-8xl leading-[0.9] tracking-tight text-black">
-              <span className="block">BRUCE</span>
-              <span className="block">WAYNE</span>
+              <span className="block">SHREYASH</span>
+              <span className="block">SRIVASTAVA</span>
             </h1>
             <p className="mt-4 md:mt-6 text-xs md:text-sm font-sans tracking-[0.15em] text-gray-500 uppercase">
-              Creative Overall
+              Full-Stack &amp; Backend Engineer
             </p>
 
             {/* Mobile Only: CTA */}

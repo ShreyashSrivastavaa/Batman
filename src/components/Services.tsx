@@ -2,11 +2,11 @@ import React from 'react';
 import { motion } from 'framer-motion';
 
 const services = [
-  "Interior Design",
-  "Visual Design",
-  "Architecture",
-  "Systems",
-  "Communication Design"
+  "Backend Architecture & APIs",
+  "Full-Stack Web Development",
+  "Real-Time Systems & Socket.io",
+  "Cloud Infrastructure & Microservices",
+  "Performance & Security Engineering"
 ];
 
 export const Services: React.FC = () => {

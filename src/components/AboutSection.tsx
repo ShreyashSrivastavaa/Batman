@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 
-const clients = ["Wayne Enterprises", "Gotham Gazette", "LexCorp", "Queen Industries", "Stagg Ent.", "Kord Industries"];
+const techStack = ["Node.js & Express", "TypeScript & React", "Next.js & Tailwind", "MongoDB & Redis", "Docker & Cloud", "REST & Socket.io"];
 
 export const AboutSection: React.FC = () => {
   return (
@@ -16,12 +16,12 @@ export const AboutSection: React.FC = () => {
           transition={{ duration: 0.8 }}
           className="font-serif text-5xl md:text-7xl lg:text-8xl leading-[0.95] mb-24 md:mb-32 max-w-5xl"
         >
-          Freelance creative designer turning ideas into experiences
+          Full-Stack &amp; Backend Engineer building high-performance web systems
         </motion.h2>
 
         <div className="flex flex-col lg:flex-row gap-16 lg:gap-24">
           
-          {/* Left Column: Intro & Clients */}
+          {/* Left Column: Intro & Tech Stack */}
           <div className="w-full lg:w-1/2 flex flex-col gap-16">
             <motion.div
               initial={{ opacity: 0, y: 20 }}
@@ -30,23 +30,23 @@ export const AboutSection: React.FC = () => {
               transition={{ delay: 0.2 }}
             >
               <p className="font-sans text-lg md:text-xl leading-relaxed text-gray-800">
-                Hi, I'm Bruce—a creative designer passionate about crafting thoughtful visuals that do more than just look good.
+                Hi, I'm Shreyash—a Full-Stack &amp; Backend Engineer passionate about building scalable backends, clean REST APIs, and client-first web applications.
               </p>
             </motion.div>
 
             <div className="mt-8">
-              <span className="font-sans text-xs tracking-[0.2em] uppercase text-gray-400 block mb-8">// Selected Clients //</span>
+              <span className="font-sans text-xs tracking-[0.2em] uppercase text-gray-400 block mb-8">// Core Technologies //</span>
               <ul className="grid grid-cols-2 gap-y-4 gap-x-8">
-                {clients.map((client, i) => (
+                {techStack.map((tech, i) => (
                   <motion.li 
-                    key={client}
+                    key={tech}
                     initial={{ opacity: 0 }}
                     whileInView={{ opacity: 1 }}
                     viewport={{ once: true }}
                     transition={{ delay: 0.3 + (i * 0.05) }}
                     className="font-serif text-lg md:text-xl border-b border-gray-100 pb-2"
                   >
-                    {client}
+                    {tech}
                   </motion.li>
                 ))}
               </ul>
@@ -62,7 +62,7 @@ export const AboutSection: React.FC = () => {
               transition={{ delay: 0.3 }}
               className="font-sans text-sm md:text-base text-gray-500 leading-relaxed max-w-md ml-auto"
             >
-              With a blend of artistry and problem-solving, I design for humans, not just brands. Whether it's building a visual identity or designing compelling digital experiences, my goal is to tell stories that feel authentic and leave a lasting impression. Collaboration fuels my creativity, and I thrive on working with clients who want to push boundaries.
+              With a strong focus on clean architecture, microservices, and sub-second performance, I transform complex ideas into reliable digital products. From engineering browser-first PDF utilities to architecting real-time ride-sharing backends, I write maintainable software built to scale.
             </motion.p>
 
             <motion.div 
@@ -74,7 +74,7 @@ export const AboutSection: React.FC = () => {
             >
               <img 
                 src="/person-suit.jpg" 
-                alt="Bruce Wayne Portrait" 
+                alt="Shreyash Srivastava Portrait" 
                 className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700"
               />
             </motion.div>

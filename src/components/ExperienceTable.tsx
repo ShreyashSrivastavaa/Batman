@@ -9,12 +9,10 @@ interface Experience {
 }
 
 const experiences: Experience[] = [
-  { role: "Visual Design Lead", year: "2023 - Current", company: "Wayne Ent." },
-  { role: "Art Director", year: "2020 - Current", company: "Freelance" },
-  { role: "Graphic Designer", year: "2019 - 2021", company: "Gotham Gazette" },
-  { role: "Brand Strategist", year: "2018 - 2019", company: "Queen Ind." },
-  { role: "Design Intern", year: "2018 - 2019", company: "Stark Ind." },
-  { role: "Video Editor", year: "2016 - 2017", company: "Daily Planet" },
+  { role: "Creator & Lead Engineer", year: "2024 - Present", company: "IHateLovePDF Suite" },
+  { role: "Full-Stack & Backend Engineer", year: "2023 - Present", company: "Freelance & Open Source" },
+  { role: "Backend Systems Architect", year: "2024", company: "QuickBite API" },
+  { role: "Real-time API Engineer", year: "2024", company: "SwipeRide System" }
 ];
 
 export const ExperienceTable: React.FC = () => {

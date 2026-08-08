@@ -23,71 +23,50 @@ interface ProjectData {
 const projects: ProjectData[] = [
   {
     id: '01',
-    title: 'Wayne Ent. Rebrand',
-    category: 'Brand Identity',
+    title: 'IHateLovePDF Suite',
+    category: 'SaaS & Web App',
     heroImage: 'https://69sfgmk1pv2omedb.public.blob.vercel-storage.com/new-templates/bruce/ChatGPT-Image-Jan-9-2026-03_02_21-PM.webp',
-    description: 'A complete overhaul of the Wayne Enterprises visual identity, focusing on the intersection of clean energy, defense technology, and philanthropic initiatives. The goal was to modernize the legacy brand while retaining its authoritative stance in the global market.',
+    description: 'An all-in-one browser-based PDF utility platform designed to split, merge, compress, convert, edit, unlock, and protect PDF files directly in the browser with maximum security and sub-second processing speeds. Eliminates payload limits and privacy risks.',
     details: {
-      client: 'Wayne Enterprises',
-      year: '2024',
-      services: 'Branding, UI/UX, Strategy'
+      client: 'IHateLovePDF',
+      year: '2025',
+      services: 'Full-Stack, WebAssembly, Security'
     },
     images: [
       'https://69sfgmk1pv2omedb.public.blob.vercel-storage.com/new-templates/bruce/ChatGPT-Image-Jan-9-2026-03_10_51-PM.webp',
-      'https://69sfgmk1pv2omedb.public.blob.vercel-storage.com/new-templates/bruce/ChatGPT-Image-Jan-9-2026-03_21_42-PM.webp',
-      'https://69sfgmk1pv2omedb.public.blob.vercel-storage.com/new-templates/bruce/ChatGPT-Image-Jan-9-2026-03_04_21-PM.webp',
-      'https://69sfgmk1pv2omedb.public.blob.vercel-storage.com/new-templates/bruce/Gemini_Generated_Image_ydodigydodigydod.webp'
+      'https://69sfgmk1pv2omedb.public.blob.vercel-storage.com/new-templates/bruce/ChatGPT-Image-Jan-9-2026-03_21_42-PM.webp'
     ]
   },
   {
     id: '02',
-    title: 'Gotham Transit',
-    category: 'Digital Product',
+    title: 'QuickBite API',
+    category: 'Backend System',
     heroImage: 'https://69sfgmk1pv2omedb.public.blob.vercel-storage.com/new-templates/bruce/ChatGPT-Image-Jan-9-2026-03_45_01-PM.webp',
-    description: 'Redesigning the commuter experience for millions of Gotham citizens. We created a unified digital system that integrates subway, bus, and rail schedules into a real-time, accessible interface.',
+    description: 'Built a complete food ordering backend using Node.js, Express.js, and MongoDB with separate logins for users, admin, products, and orders using JWT and bcrypt for password security. Added real-time order status updates using Socket.io and secured the API with Helmet.js, rate limiting, and Zod-based input validation.',
     details: {
-      client: 'Gotham City Dept. of Transportation',
-      year: '2023',
-      services: 'Product Design, Mobile App'
+      client: 'QuickBite',
+      year: '2024',
+      services: 'REST API, Socket.io, MongoDB'
     },
     images: [
       'https://69sfgmk1pv2omedb.public.blob.vercel-storage.com/new-templates/bruce/ChatGPT-Image-Jan-9-2026-03_28_15-PM.webp',
-      'https://69sfgmk1pv2omedb.public.blob.vercel-storage.com/new-templates/bruce/ChatGPT-Image-Jan-9-2026-03_43_05-PM.webp',
-      'https://69sfgmk1pv2omedb.public.blob.vercel-storage.com/new-templates/bruce/ChatGPT-Image-Jan-9-2026-03_27_14-PM.webp'
+      'https://69sfgmk1pv2omedb.public.blob.vercel-storage.com/new-templates/bruce/ChatGPT-Image-Jan-9-2026-03_43_05-PM.webp'
     ]
   },
   {
     id: '03',
-    title: 'The Daily Planet',
-    category: 'Editorial Design',
+    title: 'SwipeRide API',
+    category: 'Real-time Backend',
     heroImage: 'https://69sfgmk1pv2omedb.public.blob.vercel-storage.com/new-templates/bruce/ChatGPT-Image-Jan-9-2026-03_48_28-PM.webp',
-    description: 'A modern refresh for Metropolis’s most trusted news source. We focused on readability, digital-first layouts, and a typography system that respects the paper’s heritage while embracing the future of journalism.',
+    description: 'Building a real-time ride-sharing backend using Node.js, Express.js, MongoDB, JWT (for rider/driver/admin roles), Socket.io (live tracking), and Redis (fast driver location tracking). Used Google Maps API for fare calculation, Paystack for payments, and MongoDB\'s geospatial queries to find nearby drivers with dynamic radius expansion.',
     details: {
-      client: 'The Daily Planet',
-      year: '2023',
-      services: 'Editorial, Web Design, Print'
+      client: 'SwipeRide',
+      year: '2024',
+      services: 'Geospatial Queries, Redis, WebSockets'
     },
     images: [
       'https://69sfgmk1pv2omedb.public.blob.vercel-storage.com/new-templates/bruce/ChatGPT-Image-Jan-9-2026-03_49_56-PM.webp',
-      'https://69sfgmk1pv2omedb.public.blob.vercel-storage.com/new-templates/bruce/ChatGPT-Image-Jan-9-2026-03_49_59-PM.webp',
-      'https://69sfgmk1pv2omedb.public.blob.vercel-storage.com/new-templates/bruce/ChatGPT-Image-Jan-9-2026-03_50_03-PM.webp'
-    ]
-  },
-  {
-    id: '04',
-    title: 'Arkham Rehab',
-    category: 'Identity System',
-    heroImage: 'https://69sfgmk1pv2omedb.public.blob.vercel-storage.com/new-templates/bruce/ChatGPT-Image-Jan-9-2026-03_51_01-PM.webp',
-    description: 'Shifting the narrative from containment to rehabilitation. The new identity for Arkham Rehabilitation Center uses calming color palettes and structured yet soft forms to promote a sense of healing and stability.',
-    details: {
-      client: 'Arkham Rehabilitation Center',
-      year: '2022',
-      services: 'Brand Identity, Wayfinding'
-    },
-    images: [
-      'https://69sfgmk1pv2omedb.public.blob.vercel-storage.com/new-templates/bruce/ChatGPT-Image-Jan-9-2026-03_53_19-PM.webp',
-      'https://69sfgmk1pv2omedb.public.blob.vercel-storage.com/new-templates/bruce/ChatGPT-Image-Jan-9-2026-03_53_22-PM.webp',
-      'https://69sfgmk1pv2omedb.public.blob.vercel-storage.com/new-templates/bruce/ChatGPT-Image-Jan-9-2026-03_53_16-PM.webp'
+      'https://69sfgmk1pv2omedb.public.blob.vercel-storage.com/new-templates/bruce/ChatGPT-Image-Jan-9-2026-03_49_59-PM.webp'
     ]
   }
 ];
